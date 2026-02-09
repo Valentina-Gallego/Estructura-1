@@ -13,6 +13,10 @@ public class nacholee {
 
         suma = (n1 + n2);
 
-        System.out.println("La suma de los 2 numeros es: " + suma);
+        System.out.println(sumaDeNumeros(n1, n2));
+    }
+
+    public static int sumaDeNumeros(int n1, int n2){
+        return n1 + n2;
     }
 }
